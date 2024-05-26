@@ -1,4 +1,4 @@
-# backend-course-assignment
+# backend-course
 
 **[Live](https://main--backend-course-assignment.netlify.app/)**
 

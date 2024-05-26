@@ -21,7 +21,7 @@
     @apply mx-auto w-[75rem];
   }
   .hero {
-    background-image: url('img.webp');
+    background-image: url('/img.webp');
   }
 }
 

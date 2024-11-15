@@ -19,52 +19,28 @@ const Content = () => {
         <h2 className='mb-12 pt-14 text-3xl font-extrabold leading-9 border-b-2 border-gray-100'>
           Admission Asked Questions
         </h2>
-        <ul className='grid grid-cols-2 gap-8'>
-          <li className='col-span-2 row-span-4'>
-          <p className='mt-2'>
+        <ul className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+          <li className='col-span-1 row-span-4'>
+            <p className='mt-2'>
+              <h3 className='text-lg font-medium leading-6 capitalize'>
+                Personal letter
+              </h3>
               <p className='text-base leading-6 text-gray-300'>
-                Hello,
-                <br />
-                <br />
-                I am Elena and I have been programming for the last 2 years,
-                last year I was studying at Hyper Island and I consider
-                programming as my hobby (no, really, check out my GitHub). I can
-                confidently say that I have a good command of the following
-                technologies: TypeScript, JavaScript (including asynchronous
-                programming), React.js, Git, HTML/CSS, (including CSS modules,
-                SCSS) working with the terminal, Redux. In addition to hard
-                skills, I am an extremely motivated and goal-oriented person. I
-                consider programming to be my passion and hobby.
-                <br />
-                <br />
-                I have over 5 years of experience in the field of economics
-                before moving into software development. Working as a junior
-                frontend developer at Allihop AB allowed me to collaborate
-                effectively in a team and implement new functionality. At
-                Hexlet, I honed my skills as a frontend developer through
-                hands-on projects and demonstrated proficiency in React.js,
-                JavaScript, HTML/CSS and responsive design.
-                <br />
-                <br />
-                I also participated in a hackathon for a charity where I with a
-                team created a mini-game for a website about the psychological
-                challenges of adopting foster children. I also have experience
-                of mentoring fellow students on my course, where I help them
-                explain things they can't understand (and that I know and can
-                explain). This happens as an additional extracurricular
-                programming activity.
-                <br />
-                <br />
-                My education includes professional training in Frontend
-                Development at Hyper Island in Stockholm, Sweden. In addition, I
-                have taken various professional development courses including
-                The Complete 2023 Web Development Bootcamp and React and
-                TypeScript.
+                I am Elena and I have been programming for the last 2 years. I am currently in my second year at Hyper Island and completing my LIA internship. I can confidently say that I have a good command of the following technologies: TypeScript, JavaScript, React.js, Git/Github, HTML/CSS, working with the terminal, state managers. In addition to hard skills, I am an extremely motivated and goal-oriented person.
+                <br/>
+                <br/>
+                Currently at Optimal Connections AB, I work as a Frontend Developer with route optimization systems and integrate frontend solutions with Python-based backend APIs. Before this, I was at Fictive Reality AB working on interactive learning solutions, and I started my tech journey as a junior frontend developer at Allihop AB where I learned to collaborate effectively in a team and implement new functionality. Prior to my transition into software development, I built a strong foundation with over 5 years of experience in the field of economics.
+                <br/>
+                <br/>
+                I participated in two hackathons for charity - in the first one, I worked with a team to create a mini-game for a website about the psychological challenges of adopting foster children, and most recently participated in another charity hackathon in late October. I also have experience of mentoring fellow students on my course, where I help them explain things they can't understand (and that I know and can explain). This happens as an additional extracurricular programming activity.
+                <br/>
+                <br/>
+                My education includes professional training in Frontend Development at Hyper Island in Stockholm, Sweden. In addition, I have taken various professional development courses including The Complete 2023 Web Development Bootcamp and React and TypeScript. My major goal is to become a full-stack developer.
               </p>
             </p>
           </li>
           <li>
-            <h3 className='text-lg font-medium leading-6 '>
+            <h3 className='text-lg font-medium leading-6 capitalize'>
               Motivation for Studying This Course
             </h3>
             <p className='mt-2'>
@@ -83,7 +59,7 @@ const Content = () => {
             </p>
           </li>
           <li>
-            <h3 className='text-lg font-medium leading-6 '>
+            <h3 className='text-lg font-medium leading-6 capitalize'>
               Motivation for Being a Good Future Developer
             </h3>
             <p className='mt-2'>
@@ -102,7 +78,7 @@ const Content = () => {
           </li>
 
           <li>
-            <h3 className='text-lg font-medium leading-6 '>
+            <h3 className='text-lg font-medium leading-6 capitalize'>
               Previous Experience in Frontend Development
             </h3>
             <p className='mt-2'>
@@ -123,7 +99,7 @@ const Content = () => {
             </p>
           </li>
           <li>
-            <h3 className='text-lg font-medium leading-6 '>
+            <h3 className='text-lg font-medium leading-6 capitalize'>
               Project Demonstration: Chat App
             </h3>
             <p className='mt-2'>

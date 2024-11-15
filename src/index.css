@@ -6,9 +6,6 @@
   body {
     @apply font-sans text-white bg-neutral-900;
   }
-  li {
-    @apply cursor-pointer;
-  }
 }
 @layer components {
   h1 {

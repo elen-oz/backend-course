@@ -18,7 +18,7 @@ const Header = () => {
               target='_blank'
             >
               <PiIdentificationCardDuotone size={25} />
-              Portfolio
+              <span className='hidden sm:inline-block'>Portfolio</span>
             </a>
             <a
               className='border-b-2 border-neutral-500 hover:border-b-2 hover:border-white px-3 py-2 flex items-center gap-2'
@@ -26,7 +26,7 @@ const Header = () => {
               target='_blank'
             >
               <PiGithubLogoDuotone size={25} />
-              GitHub
+              <span className='hidden sm:inline-block'>GitHub</span>
             </a>
             <a
               className='border-b-2 border-neutral-500 hover:border-b-2 hover:border-white px-3 py-2 flex items-center gap-2'
@@ -34,7 +34,7 @@ const Header = () => {
               target='_blank'
             >
               <PiLinkedinLogoDuotone size={25} />
-              Linkedin
+              <span className='hidden sm:inline-block'>Linkedin</span>
             </a>
           </nav>
         </div>

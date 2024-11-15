@@ -14,7 +14,7 @@ const Header = () => {
           <nav className='flex items-baseline space-x-4'>
             <a
               className='border-b-2 border-neutral-500 hover:border-b-2 hover:border-white px-3 py-2 flex items-center gap-2'
-              href='https://elenoz.app/'
+              href='https://elen-oz.com/'
               target='_blank'
             >
               <PiIdentificationCardDuotone size={25} />

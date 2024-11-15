@@ -4,7 +4,7 @@ import { PiGithubLogoDuotone } from 'react-icons/pi';
 const Content = () => {
   return (
     <main>
-      <section className='hero relative min-h-screen w-full flex flex-col justify-center'>
+      <section className='hero relative min-h-screen flex flex-col justify-center overflow-x-hidden'>
         <div className='absolute inset-0 bg-black bg-opacity-40 z-10'></div>
         <div className='container relative z-20'>
           <h1>

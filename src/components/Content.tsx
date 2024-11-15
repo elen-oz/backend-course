@@ -21,7 +21,7 @@ const Content = () => {
         </h2>
         <ul className='grid grid-cols-2 gap-8'>
           <li className='col-span-2 row-span-4'>
-            <p className='mt-2'>
+          <p className='mt-2'>
               <p className='text-base leading-6 text-gray-300'>
                 Hello,
                 <br />

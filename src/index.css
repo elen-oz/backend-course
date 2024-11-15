@@ -18,10 +18,11 @@
     @apply mb-12 pt-14 text-3xl font-extrabold leading-9 border-b-2 border-stone-300;
   }
   .container {
-    @apply mx-auto w-[75rem];
+    @apply mx-auto max-w-[75rem] px-4;
   }
   .hero {
     background-image: url('/img.webp');
+    @apply bg-fixed bg-cover bg-center bg-no-repeat min-h-screen w-full;
   }
 }
 

@@ -4,16 +4,14 @@ import { PiGithubLogoDuotone } from 'react-icons/pi';
 const Content = () => {
   return (
     <main>
-      <section className='hero h-screen relative bg-cover bg-center bg-no-repeat flex flex-col justify-center'>
+      <section className='hero relative min-h-screen w-full flex flex-col justify-center'>
         <div className='absolute inset-0 bg-black bg-opacity-40 z-10'></div>
-        <div className='container'>
-          <div className='relative z-20'>
-            <h1>
-              Personal
-              <br />
-              Letter
-            </h1>
-          </div>
+        <div className='container relative z-20'>
+          <h1>
+            Personal
+            <br/>
+            Letter
+          </h1>
         </div>
       </section>
 
@@ -25,7 +23,7 @@ const Content = () => {
           <li className='col-span-2 row-span-4'>
             <p className='mt-2'>
               <p className='text-base leading-6 text-gray-300'>
-                Hello Michiel!
+                Hello,
                 <br />
                 <br />
                 I am Elena and I have been programming for the last 2 years,

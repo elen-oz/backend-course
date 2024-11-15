@@ -128,7 +128,7 @@ const Content = () => {
             </h3>
             <p className='mt-2'>
               <div className='text-base leading-6 text-gray-300'>
-                <div className='w-full flex'>
+                <div className='w-full flex-col mb-3'>
                   <a
                     className='px-3 py-2 flex items-center gap-2 hover:text-neutral-500'
                     href='https://github.com/elen-oz/chat_react-firebase'
